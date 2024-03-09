@@ -53,15 +53,15 @@ class herobijak {
     private String namamusuh;
     herobijak(){
     }
-    void melakukanserangankeheropintar(heropintar musuh){
+    public void melakukanserangankeheropintar(heropintar musuh){
         this.kerusakan=(musuh.nyawa*2) - this.serangan;
         this.namamusuh=musuh.nama;
     }
-    void melakukanserangankeherokuat(herokuat musuh){
+    public void melakukanserangankeherokuat(herokuat musuh){
         this.kerusakan=(musuh.nyawa) - this.serangan;
         this.namamusuh=musuh.nama;
     }
-    void tampilan(){
+    public void tampilan(){
         System.out.println(this.nama +" melalukan serangan terhadap "+this.namamusuh+
         "\nnyawa "+this.namamusuh+" : "+this.kerusakan);}
         
