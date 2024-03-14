@@ -6,15 +6,15 @@ class herokuat {
    private String namamusuh;
     herokuat(){ 
     }
-    void melakukanserangankeherobijak(herobijak musuh){
+    public void melakukanserangankeherobijak(herobijak musuh){
         this.kerusakan=(musuh.nyawa*2) - (this.serangan*6);
         this.namamusuh=musuh.nama;
     }
-    void melakukanserangankeheropintar(heropintar musuh){
+    public void melakukanserangankeheropintar(heropintar musuh){
         this.kerusakan=(musuh.nyawa) - (this.serangan*6);
         this.namamusuh=musuh.nama;
     }
-    void tampilan(){
+    public void tampilan(){
         System.out.println(this.nama +" melalukan serangan terhadap "+this.namamusuh+
         "\nnyawa "+this.namamusuh+" : "+this.kerusakan);
     }
@@ -29,15 +29,15 @@ class herokuat {
     private double kerusakan;
     private String namamusuh;
      heropintar(){
-    }void melakukanserangankeherobijak(herobijak musuh){
+    }public void melakukanserangankeherobijak(herobijak musuh){
         this.kerusakan=(musuh.nyawa*2) - (this.serangan*5);
         this.namamusuh=musuh.nama;
     }
-    void melakukanserangankeherokuat(herokuat musuh){
+    public void melakukanserangankeherokuat(herokuat musuh){
         this.kerusakan=(musuh.nyawa) - (this.serangan*5);
         this.namamusuh=musuh.nama;
     }
-    void tampilan(){
+   public void tampilan(){
         System.out.println(this.nama +" melalukan serangan terhadap "+this.namamusuh+
         "\nnyawa "+this.namamusuh+" : "+this.kerusakan);
     }
