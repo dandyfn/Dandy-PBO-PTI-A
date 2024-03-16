@@ -1,31 +1,20 @@
 # 📁 Tugas 4 : Constructor, Instance Method & Method Overloading
 
 ## 👤 Identitas Intern
-Nama : Devan             
-NIM  : 22xxxxxx
+Nama : Dandy Al-Farisi Natanegara          
+NIM  : 235150600111012
 
 ## 📤 Submission
 
-Tema yang dipilih : 
+Tema yang dipilih : game
 Class Diagram yang dibuat : 
-1. Class Diagram 1
-2. Class Diagram 2
-dst
 
-## Implementasi CRUD
-
-Gunakan template ini apabila kamu mengerjakan optional requirements
-
-| Aspek | Penjelasan    |     
-| :---:   | :---: | 
-| Create | -   | 
-| Read | -   | 
-| Update | -   | 
-| Delete | -   | 
-
+1. Class Diagram herokuat
+2. Class Diagram herobijak
+3. Class Diagram heropintar
 
 
 ## 🔗 Link Penjelasan Tugas
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://youtu.be/BYNHtWsyYgM
 
