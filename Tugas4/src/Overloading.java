@@ -3,11 +3,11 @@
 import java.util.Scanner;
 
  public class Overloading {
-// public static void HitungLuas(int a,int b){
- //int nilai = a*b;
- ///System.out.println("maka hasil luas : "+nilai);
-// }
- public static void HitungLuas(int a,int b){
+public static void HitungLuas(int a,int b){
+ int nilai = a*b;
+System.out.println("maka hasil luas : "+nilai);
+ }
+ public static double HitungLuas(int a,int b){
  double nilai = a* b;
  //return nilai;
  }
@@ -23,6 +23,6 @@ import java.util.Scanner;
  System.out.print("masukkan nilai double 2 : ");
  int double2 = in.nextInt();
  HitungLuas(integer1, integer2);
- System.out.println("Maka hasil luas :"+HitungLuas(double1, double2));
+ //System.out.println("Maka hasil luas :"+HitungLuas(double1, double2));
  }
  }
