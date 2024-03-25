@@ -1,0 +1,9 @@
+Overloading method
+
+2. baris ke 7 adalah konstruktor bertipe double yang hendak diubah menjadi bertipe int. maka tipe dan jumlah parameter 
+akan sama dengan konstruktor yang ada di atasnya yang akan membuat eror karena membuat konstruktor dengan nama sama, tipe dan jumlah parameter yang sama 
+tidak bisa dilakukan.
+
+Overloading constructor
+
+2. karena sudah ada konstruktor dengan tipe dan jumlah yang sama yaitu konstruktor lingkaran berparameter alas tertipe tinggi dan jumlahnya 1 maka akan terjadi eror.
