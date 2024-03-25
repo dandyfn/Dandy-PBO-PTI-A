@@ -1,0 +1,27 @@
+Encapsulation 1
+
+
+2. Jika pada baris 6 s1.setName diubah menjadi s1.getName, maka akan terjadi kesalahan kompilasi. 
+Ini terjadi karena s1 merupakan objek dari kelas Student, dan metode getName() adalah metode yang mengembalikan nilai dari atribut name dari objek s1. 
+Namun, s1.getName tanpa tanda kurung kurung (()) mengindikasikan bahwa kita mencoba mengakses atribut getName dari objek s1, yang tidak ada dalam definisi kelas Student.
+
+Untuk mengakses metode getName(), kita perlu menggunakan tanda kurung () setelah nama metode, yaitu s1.getName(). 
+Itulah cara yang benar untuk memanggil metode getName() pada objek s1 untuk mengambil nilai dari atribut name.
+
+3. Jika hak akses pada baris 4  diubah menjadi private, maka artinya kelas Student akan memiliki hak akses private, 
+yang berarti hanya kelas Student itu sendiri yang dapat mengaksesnya. Ini berarti bahwa kelas lain di luar dari Student 
+tidak akan bisa mengakses atribut name dan mark secara langsung.
+
+Jika kelas `Test` mencoba untuk mengakses atribut name dan mark dari objek Student setelah perubahan tersebut, 
+maka akan terjadi kesalahan kompilasi. Hal ini karena akses ke atribut name dan mark akan dianggap tidak valid dari luar kelas Student yang bersangkutan.
+
+4. Ya, konsep enkapsulasi masih berfungsi meskipun kelas-kelas tersebut berada dalam package yang sama. 
+Konsep enkapsulasi dalam pemrograman berarti menyembunyikan detail implementasi internal suatu objek dan
+hanya mengekspos fungsionalitasnya melalui antarmuka yang terdefinisi dengan baik. Dalam kasus kelas `Student` yang Anda berikan
+Ini berarti bahwa kelas lain dalam package yang sama hanya dapat berinteraksi dengan objek Student
+melalui metode-metode yang telah ditentukan (seperti setName, getName, setMark, dan getMark), 
+sehingga memastikan bahwa operasi yang dilakukan pada objek tersebut sesuai dengan aturan yang telah ditetapkan dalam kelas 
+Student. Dengan demikian, konsep enkapsulasi tetap berlaku, terlepas dari kelas berada dalam package yang sama atau tidak.
+
+Encapsulation 2
+1. getLoad dan getMaxLoad
