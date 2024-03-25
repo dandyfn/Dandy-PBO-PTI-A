@@ -1,0 +1,4 @@
+1. variabel instance merupakan variabel yang dibuat di dalam sebuah method atau class. hasil dari variabel ini harus di instansiasikan atau dipanggil dalam main class untuk bisa dilihat atau digunakan.
+nilai dalam variabel ini berubah-ubah tergantung apa yang dimaksudkan saat dipanggil.
+
+variabel lokal adalah variabel yang dibuat di dalam main class. variabel ini langsung saja diubah, digunakan atau dilihat langsung. 
