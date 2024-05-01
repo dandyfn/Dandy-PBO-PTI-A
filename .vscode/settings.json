@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "Tugas3/src",
         "Tugas2/235150600111012-Dandy/Tugas Praktikum",
         "Tugas2/235150600111012-Dandy/Analisis Percobaan",
-        "Tugas3/src"
+        "Tugas4/src"
     ]
 }
