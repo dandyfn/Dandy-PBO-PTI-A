@@ -1,10 +1,10 @@
 # 📁 Tugas 8 : Upcasting Downcasting
 
 ## 👤 Identitas Intern
-Nama : Devan             
-NIM  : 22xxxxxx
+Nama : Dandy Al-Farisi Natanegara       
+NIM  : 235150600111012
 
 ## 🔗 Link Penjelasan Tugas
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://youtu.be/Dm-WtTxViBE
 
