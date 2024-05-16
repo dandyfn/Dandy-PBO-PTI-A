@@ -1,0 +1,9 @@
+1. ada kesalahan karena inputan dari modul harus dipisah dalam class berbeda
+2. tidak bisa, class interface seperti class abstrak yang dibuat untuk secara khusus menurunkan method dan
+atribut dan tidak dibuat untuk instansiasi 
+3. bisa, dan hal tersebut adalah keunggulan dari class interface dibangdingkan class abstrak
+4. hal itu berpengaruh pada class manusia yang mengimplements class identitas. method tampilkan 
+sudah di instan di class manusia, jika dihapus langsung dari class identias maka akan terjadi error
+dan method tidak bisa dijalankan
+5. tidak terjadi apa apa, namun jika kita menghapus implement class identitas pada baris public classnya maka
+ semua method pada class identitas akan seperti jatuh ke class hewan dan bukan dari class identitas
